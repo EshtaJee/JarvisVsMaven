@@ -23,7 +23,7 @@ public class BonusServiceTest {
         BonusService service = new BonusService();
 
 
-        long amount = 1000000;
+        long amount = 5000000;
         boolean registered = true;
         long expected = 500;
 
@@ -53,7 +53,7 @@ public class BonusServiceTest {
         BonusService service = new BonusService();
 
 
-        long amount = 1000000;
+        long amount = 10000000;
         boolean registered = false;
         long expected = 500;
 
